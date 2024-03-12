@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Formik vs React Final Form vs React Hook Form comparison - 2024
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+As a developer building interactive forms in `React` applications is essential, but selecting the right form library can be overwhelming. Several powerful options exist, each with its own strengths and considerations. This post dives into a soft comparison of three popular choices: `Formik`, `React Final Form`, and `React Hook Form`. We’ll explore their key features, performance aspects, and use cases, equipping you to make an informed decision for your next React project in 2024.
 
-## Available Scripts
+![form-comparison](https://chanaka.co.uk/blogs/wp-content/uploads/2024/03/formik-vs-hook-vs-final-2-1536x816.jpg)
 
-In the project directory, you can run:
+### Formik
 
-### `npm start`
+Build forms in React, without the tears.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Official Web – https://formik.org/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* GitHub – https://github.com/jaredpalmer/formik
 
-### `npm test`
+- NPM – https://www.npmjs.com/package/formik
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`Formik` is one of the most popular form libraries for React and React Native. With `Formik’s` powerful features you spend less time building powerful complex forms. Features are,
 
-### `npm run build`
+- It works well with both internal states and external state libraries.
+- It provides well integrated validations and supports external libraries like `Yup`.
+- It works well with controlled and uncontrolled form components.
+- It is easy to customize the form and its behaviours.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`Formik` has well written documentation. It doesn’t have an active community as much as `React Hook Form` but it’s more active than `React Final Form` (03/12/2024) in 2024. `Formik` learning curve is not as easy as `React Hook Form` but it doesn’t have a steep learning curve as `React Final Form`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+But I found a few considerations,
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Formik has a 690 open bugs on the GitHub when today (03/12/2024) – https://github.com/jaredpalmer/formik/issues.
+- Formik bundle size is larger than React Hook Form.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Read More](https://chanaka.co.uk/blogs/choosing-the-right-react-form-library-for-2024/)
