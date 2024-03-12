@@ -4,4 +4,6 @@ As a developer building interactive forms in `React` applications is essential, 
 
 [Read More](https://chanaka.co.uk/blogs/choosing-the-right-react-form-library-for-2024/) about the comparison
 
+---
+
 ![form-comparison](https://chanaka.co.uk/blogs/wp-content/uploads/2024/03/formik-vs-hook-vs-final-2-1536x816.jpg)
