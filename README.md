@@ -4,7 +4,7 @@ As a developer building interactive forms in `React` applications are essential,
 
 ---
 
-Read the full article on [Medium](https://medium.com/@chanakaH/choosing-the-right-react-form-library-for-2024-a7cb10931973)
+Read the full comparison article on [Medium](https://medium.com/@chanakaH/choosing-the-right-react-form-library-for-2024-a7cb10931973)
 
 ---
 
